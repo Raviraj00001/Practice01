@@ -178,3 +178,90 @@ html,body{
 .bottom button:hover{
   background-color: #333;
 }
+/* .navbar{
+  padding:20px;
+  background-color: #f1f1f1;
+}
+.menu{
+  margin:20px;
+  padding:10px;
+}
+.menu span{
+  margin:20px;
+} */
+ nav{
+  display:flex;
+  justify-content: center;
+  align-items:centre;
+  padding:20px;
+  /* background-color: #f1f1f1; */
+
+ }
+ nav ul{
+  display:flex;
+  gap:20px;
+  list-style-type:none;
+ }
+ nav ul li{
+  cursor: pointer;
+  padding:10px;
+  transition:0.3s;
+
+ }
+ .WRAP{
+  display: flex;
+ }
+ /* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 40px;
+  background-color: #111;
+  color: white;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav ul li:hover {
+  color: yellow;
+}
+
+/* Profile */
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: white;
+}
+
+.profile h2 {
+  font-size: 18px;
+}

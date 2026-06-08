@@ -1,6 +1,10 @@
 import React from "react"
 import { BookMarked } from "lucide-react"
 import Card from "./components/Card"
+// import Navbar from "./components/Navbar"
+//  import Profile from './components/Profile'
+import Header from "./components/Header"
+import IntroBody from "./components/IntroBody"
 const App=()=>{
 
  const jobs = [
@@ -136,7 +140,9 @@ const App=()=>{
 ]
   return(
   <div className="parent">
-
+   
+  <Header/>
+  <IntroBody/>
     <div className="jobs">
       {jobs.map(function(elem,index){
         return (
